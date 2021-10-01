@@ -42,6 +42,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+ font-size: 62.5%;
+}
+body{
+font-size: 1.6rem;
+}
 header{
     background-color: aquamarine;
     margin-top: 15px;
