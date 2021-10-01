@@ -62,14 +62,27 @@ header{
 }
 .topSection{
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 .NFC{
-    padding: 25% 25%;
-    
+    padding: 10%;
+
 }
-.myProjects{
-    background-color: white;
+.projectsButton{
+    width: 20%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    background-color: aquamarine;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.portfolio{
+    text-align: center;
 }
 footer{
     display: flex;
@@ -79,6 +92,11 @@ footer{
     text-align: center;
     color: #4f4f4f;
 text-decoration: none;
+}
+.three{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
 }
 .contactButton{
     justify-content: space-around;
